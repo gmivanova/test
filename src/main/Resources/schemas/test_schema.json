@@ -1,0 +1,21 @@
+{
+  "post":{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "",
+    "type": "object",
+    "properties": {
+      "message": {
+        "id": "/message",
+        "type": "string"
+      },
+      "numbers": {
+        "id": "/numbers",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "message",
+      "numbers"
+    ]
+  }
+}

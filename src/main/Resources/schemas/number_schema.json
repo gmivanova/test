@@ -1,0 +1,40 @@
+{
+  "get":{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "/",
+    "type": "object",
+    "properties": {
+      "number": {
+        "id": "number",
+        "type": "integer"
+      },
+      "factors": {
+        "id": "factors",
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "odd": {
+        "id": "odd",
+        "type": "boolean"
+      },
+      "even": {
+        "id": "even",
+        "type": "boolean"
+      },
+      "prime": {
+        "id": "prime",
+        "type": "boolean"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "number",
+      "factors",
+      "odd",
+      "even",
+      "prime"
+    ]
+  }
+}
